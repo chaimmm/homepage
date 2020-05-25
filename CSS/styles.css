@@ -1,0 +1,148 @@
+body {
+  color: #a6d0e4;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #d4a5a5;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #d4a5a5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #f2c6b4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr{
+  border: dotted #e23e57 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+color: #ff847c;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+
+a:hover{
+  color: #ffc8c8;
+}
+
+.top-container {
+  background-color: #ffecda;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #ffe2e2;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #defcf9;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-comment {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.bottom-comment {
+  position: absolute;
+  left: 200px;
+  bottom: 500px;
+}
+
+.conversation-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.baking-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.testbutton {
+  font-family: arial;
+  color: #364f6b;
+  font-size: 17px;
+  text-shadow: 1px 1px 0 #2b2e4a;
+  box-shadow: 1px 1px 1px #FAB967;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid #f67280;
+  background: #FFBD69;
+  background: linear-gradient(top,#f67280, #F7AEA5);
+  background: -ms-linear-gradient(top, #f67280, #F7AEA5);
+  background: -webkit-gradient(linear, left top, left buttom, from(#f67280), to(#F7AEA5));
+  background: -moz-linear-gradient(top, #f67280, #F7AEA5);
+}
+
+.testbutton:hover {
+  color: #FC3E21;
+  background: #468CCF;
+  background: linear-gradient(top,  #FFAC9C,  #FFAC9C);
+  background: -ms-linear-gradient(top,  #FFAC9C,  #FFAC9C);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFAC9C), to(#FFAC9C));
+  background: -moz-linear-gradient(top,  #FFAC9C,  #FFAC9C);
+}
+.top-saturn {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-saturn {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
